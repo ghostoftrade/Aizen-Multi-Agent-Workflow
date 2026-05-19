@@ -281,9 +281,12 @@ h1{
     opacity:1;
 }
 
-.icon{
-    font-size:34px;
-    margin-bottom:22px;
+.skill-number{
+    font-family:'Cinzel',serif;
+    color:#777;
+    font-size:30px;
+    margin-bottom:24px;
+    letter-spacing:2px;
 }
 
 .skill-card h3{
@@ -407,16 +410,90 @@ h1{
 }
 
 @media(max-width:680px){
+    nav{
+        height:68px;
+        padding:0 22px;
+    }
+
+    .logo{
+        font-size:18px;
+        letter-spacing:3px;
+    }
+
+    .hero{
+        min-height:100svh;
+        padding:110px 24px 64px;
+        align-items:flex-end;
+    }
+
+    .background{
+        background:url('Aizen.jpg') center center/cover no-repeat;
+        filter:brightness(0.36) contrast(1.18);
+        transform:scale(1);
+    }
+
+    .overlay{
+        background:
+            linear-gradient(to bottom, rgba(0,0,0,.18), rgba(0,0,0,.92)),
+            linear-gradient(to right, rgba(0,0,0,.88), rgba(0,0,0,.52));
+    }
+
+    .tag{
+        font-size:10px;
+        letter-spacing:3px;
+        padding:10px 16px;
+        margin-bottom:24px;
+    }
+
     h1{
+        font-size:64px;
         letter-spacing:-2px;
+        margin-bottom:24px;
     }
 
     .subtitle{
-        font-size:17px;
+        font-size:16px;
+        line-height:1.7;
+        margin-bottom:30px;
     }
 
     .line{
-        width:240px;
+        width:220px;
+        margin-bottom:28px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    .btn{
+        width:100%;
+        text-align:center;
+        padding:14px 18px;
+        font-size:11px;
+        letter-spacing:2px;
+    }
+
+    .section{
+        padding:72px 0;
+    }
+
+    .container{
+        width:90%;
+    }
+
+    .section-head{
+        margin-bottom:36px;
+    }
+
+    .section-title{
+        font-size:38px;
+    }
+
+    .section-desc{
+        font-size:16px;
+        line-height:1.7;
     }
 
     .skills-grid,
@@ -424,10 +501,43 @@ h1{
         grid-template-columns:1fr;
     }
 
+    .skill-card{
+        min-height:auto;
+        padding:26px;
+    }
+
+    .skill-number{
+        font-size:26px;
+        margin-bottom:20px;
+    }
+
+    .skill-card h3{
+        font-size:18px;
+    }
+
+    .skill-card p{
+        font-size:14px;
+    }
+
+    .agent{
+        min-height:auto;
+        padding:26px;
+    }
+
+    .structure-box{
+        padding:22px;
+    }
+
+    .structure-box pre{
+        font-size:13px;
+        line-height:1.7;
+    }
+
     .footer{
-        padding:34px 28px;
+        padding:34px 24px;
         flex-direction:column;
-        letter-spacing:3px;
+        letter-spacing:2px;
+        font-size:10px;
     }
 }
 </style>
@@ -495,49 +605,49 @@ h1{
         <div class="skills-grid">
 
             <a class="skill-card" href="https://github.com/ghostoftrade/Multi-Agent-Workflow/tree/main/skills/aizen" target="_blank">
-                <div class="icon">🧠</div>
+                <div class="skill-number">01</div>
                 <h3>Aizen Router</h3>
                 <p>The master skill that routes user requests to the right specialist agent inside the workflow.</p>
                 <span class="card-action">Open SKILL.md →</span>
             </a>
 
             <a class="skill-card" href="https://github.com/ghostoftrade/Multi-Agent-Workflow/tree/main/skills/crypto-market-agent" target="_blank">
-                <div class="icon">📈</div>
+                <div class="skill-number">02</div>
                 <h3>Crypto Market Agent</h3>
                 <p>Analyze market movement, sentiment, news, risk, opportunities, and crypto watchlists.</p>
                 <span class="card-action">Open SKILL.md →</span>
             </a>
 
             <a class="skill-card" href="https://github.com/ghostoftrade/Multi-Agent-Workflow/tree/main/skills/content-agent" target="_blank">
-                <div class="icon">✍️</div>
+                <div class="skill-number">03</div>
                 <h3>Content Agent</h3>
                 <p>Create Twitter/X threads, hooks, captions, newsletters, scripts, and content plans.</p>
                 <span class="card-action">Open SKILL.md →</span>
             </a>
 
             <a class="skill-card" href="https://github.com/ghostoftrade/Multi-Agent-Workflow/tree/main/skills/lead-generation-agent" target="_blank">
-                <div class="icon">🎯</div>
+                <div class="skill-number">04</div>
                 <h3>Lead Generation Agent</h3>
                 <p>Find prospects, score leads, create outreach messages, and prepare CRM-ready data.</p>
                 <span class="card-action">Open SKILL.md →</span>
             </a>
 
             <a class="skill-card" href="https://github.com/ghostoftrade/Multi-Agent-Workflow/tree/main/skills/customer-support-agent" target="_blank">
-                <div class="icon">💬</div>
+                <div class="skill-number">05</div>
                 <h3>Customer Support Agent</h3>
                 <p>Handle FAQs, support tickets, WhatsApp response flows, and customer message classification.</p>
                 <span class="card-action">Open SKILL.md →</span>
             </a>
 
             <a class="skill-card" href="https://github.com/ghostoftrade/Multi-Agent-Workflow/tree/main/skills/document-agent" target="_blank">
-                <div class="icon">📄</div>
+                <div class="skill-number">06</div>
                 <h3>Document Agent</h3>
                 <p>Summarize PDFs, extract key points, process documents, and generate structured reports.</p>
                 <span class="card-action">Open SKILL.md →</span>
             </a>
 
             <a class="skill-card" href="https://github.com/ghostoftrade/Multi-Agent-Workflow/tree/main/skills/workflow-automation-agent" target="_blank">
-                <div class="icon">⚙️</div>
+                <div class="skill-number">07</div>
                 <h3>Workflow Automation Agent</h3>
                 <p>Connect tools, APIs, dashboards, sheets, alerts, and automated business workflows.</p>
                 <span class="card-action">Open SKILL.md →</span>
