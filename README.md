@@ -1,5 +1,11 @@
 # AIZEN — Multi-Agent Workflow Skills
 
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Version](https://img.shields.io/badge/Version-2.0.0-orange)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)
+![Built By](https://img.shields.io/badge/Built%20by-Ghost%20of%20Sol-purple)
+
 AIZEN is an open-source AI Agent Skills Library for building multi-agent workflow systems.
 
 This repository contains reusable `SKILL.md` files that can be copied, customized, and loaded into AI agents.
@@ -7,6 +13,24 @@ This repository contains reusable `SKILL.md` files that can be copied, customize
 AIZEN is designed for builders who want AI agents that can do more than chat.
 
 The goal is to create agents that can research, analyze, execute, automate, notify, support, and report.
+
+---
+
+## Quick Start
+
+```txt
+1. Open the skills/ folder.
+2. Choose the skill you need.
+3. Open the SKILL.md file.
+4. Copy the instruction block at the bottom (## Prompt section).
+5. Paste it into your AI agent system as a system prompt.
+6. Customize inputs, tools, and output format.
+7. Run the agent.
+```
+
+That is it. No installation required.
+
+---
 
 ## What Is AIZEN?
 
@@ -27,6 +51,8 @@ It provides structured AI agent skills for:
 - Tool and API integration
 - Launch operations
 - Reporting and execution
+
+---
 
 ## Why This Exists
 
@@ -50,59 +76,56 @@ Telegram / Dashboard / Report / Content / Docs / Output
 Final Result
 ```
 
+---
+
 ## Repository Structure
 
 ```txt
-Multi-Agent-Workflow/
+Aizen-Multi-Agent-Workflow/
 │
 ├── README.md
+├── LICENSE
 ├── index.html
 ├── Aizen.jpg
 │
 └── skills/
     ├── aizen/
-    │   └── SKILL.md
+    │   └── SKILL.md          ← Master Router Agent
     │
     ├── crypto-market-agent/
-    │   └── SKILL.md
+    │   └── SKILL.md          ← Crypto Market Intelligence Agent
     │
     ├── content-agent/
-    │   └── SKILL.md
+    │   └── SKILL.md          ← Content Intelligence Agent
     │
     ├── lead-generation-agent/
-    │   └── SKILL.md
+    │   └── SKILL.md          ← Partnership & Growth Outreach Agent
     │
     ├── customer-support-agent/
-    │   └── SKILL.md
+    │   └── SKILL.md          ← Community Support & Trust Agent
     │
     ├── document-agent/
-    │   └── SKILL.md
+    │   └── SKILL.md          ← Project Docs & Intelligence Agent
     │
     └── workflow-automation-agent/
-        └── SKILL.md
+        └── SKILL.md          ← Multi-Agent Workflow Architect
 ```
+
+---
 
 ## Available Skills
 
-| Skill | Description |
-|---|---|
-| Aizen Master Router Agent | Master router that selects the right specialist agent and creates the execution path |
-| Crypto Market Intelligence Agent | Analyze BTC, ETH, SOL, Base, Solana, narratives, sentiment, risk, watchlists, and Telegram market reports |
-| Content Intelligence Agent | Create crypto-native content, launch campaigns, X threads, Telegram announcements, and project storytelling |
-| Partnership & Growth Outreach Agent | Build KOL outreach, partner pipelines, Base/Solana ecosystem growth, and CRM-ready follow-ups |
-| Community Support & Trust Agent | Handle Telegram/Discord support, FAQs, onboarding, FUD, scam warnings, and community trust workflows |
-| Project Docs & Intelligence Agent | Create whitepapers, litepapers, token docs, project FAQs, roadmap summaries, and documentation audits |
-| Multi-Agent Workflow Architect | Design OpenClaw, Hermes, n8n, Telegram, API, dashboard, launch, and automation workflows |
+| # | Skill | Description |
+|---|---|---|
+| 01 | **Aizen Master Router Agent** | Master router that selects the right specialist agent and creates the execution path |
+| 02 | **Crypto Market Intelligence Agent** | Analyze BTC, ETH, SOL, Base, Solana, narratives, sentiment, risk, watchlists, and Telegram market reports |
+| 03 | **Content Intelligence Agent** | Create crypto-native content, launch campaigns, X threads, Telegram announcements, and project storytelling |
+| 04 | **Partnership & Growth Outreach Agent** | Build KOL outreach, partner pipelines, Base/Solana ecosystem growth, and CRM-ready follow-ups |
+| 05 | **Community Support & Trust Agent** | Handle Telegram/Discord support, FAQs, onboarding, FUD, scam warnings, and community trust workflows |
+| 06 | **Project Docs & Intelligence Agent** | Create whitepapers, litepapers, token docs, project FAQs, roadmap summaries, and documentation audits |
+| 07 | **Multi-Agent Workflow Architect** | Design OpenClaw, Hermes, n8n, Telegram, API, dashboard, launch, and automation workflows |
 
-## How To Use
-
-1. Open the `skills` folder.
-2. Choose the skill you want.
-3. Open the `SKILL.md` file.
-4. Copy the instruction.
-5. Paste it into your AI agent system.
-6. Customize the inputs, tools, and output format.
-7. Run the agent.
+---
 
 ## Compatible With
 
@@ -126,6 +149,8 @@ These skills can be adapted for:
 - Custom APIs
 - Any custom multi-agent framework
 
+---
+
 ## Core Concept
 
 AIZEN works as a skill-based multi-agent system.
@@ -141,6 +166,8 @@ Formats the output
    ↓
 Sends result to user, Telegram, dashboard, docs, or report
 ```
+
+---
 
 ## Example Multi-Agent Workflow
 
@@ -161,6 +188,8 @@ Report Agent:
 Formats the final result into a clear Telegram-ready market brief.
 ```
 
+---
+
 ## Example Use Cases
 
 ### 1. Crypto Market Intelligence
@@ -174,7 +203,6 @@ Telegram Market Report
 ```
 
 Use for:
-
 - BTC / ETH / SOL market reports
 - Base ecosystem monitoring
 - Solana ecosystem monitoring
@@ -184,6 +212,8 @@ Use for:
 - Telegram alpha reports
 - Risk matrix
 - Scenario planning
+
+---
 
 ### 2. Base or Solana Project Launch
 
@@ -200,7 +230,6 @@ Multi-Agent Workflow Architect
 ```
 
 Use for:
-
 - Token launch preparation
 - Base project positioning
 - Solana-style community growth
@@ -210,6 +239,8 @@ Use for:
 - Community FAQ
 - Scam warnings
 - Human review workflows
+
+---
 
 ### 3. Content Creation Workflow
 
@@ -224,7 +255,6 @@ Twitter/X Thread or Telegram Announcement
 ```
 
 Use for:
-
 - Twitter/X threads
 - Founder posts
 - Launch campaigns
@@ -234,6 +264,8 @@ Use for:
 - Narrative building
 - Content calendars
 - Short-form video scripts
+
+---
 
 ### 4. Partnership & KOL Growth Workflow
 
@@ -248,7 +280,6 @@ CRM / Google Sheets / Telegram Alert
 ```
 
 Use for:
-
 - KOL targeting
 - Base ecosystem outreach
 - Solana community outreach
@@ -258,6 +289,8 @@ Use for:
 - Telegram outreach
 - CRM tracking
 - Follow-up automation
+
+---
 
 ### 5. Community Support & Trust Workflow
 
@@ -272,7 +305,6 @@ Telegram Admin Alert / FAQ / Reply
 ```
 
 Use for:
-
 - Telegram support
 - Discord support
 - FAQ automation
@@ -281,6 +313,8 @@ Use for:
 - Token question replies
 - Community onboarding
 - Admin escalation
+
+---
 
 ### 6. Project Documentation Workflow
 
@@ -295,7 +329,6 @@ Docs / FAQ / Litepaper / Announcement
 ```
 
 Use for:
-
 - Whitepaper summary
 - Litepaper draft
 - Token utility explanation
@@ -305,6 +338,8 @@ Use for:
 - Community FAQ
 - Pitch brief
 - Documentation audit
+
+---
 
 ### 7. Workflow Automation System
 
@@ -319,7 +354,6 @@ Telegram / Dashboard / Google Sheets / API / Report
 ```
 
 Use for:
-
 - OpenClaw workflows
 - Hermes workflows
 - n8n automations
@@ -330,6 +364,8 @@ Use for:
 - Launch operations
 - Human review systems
 - Error handling workflows
+
+---
 
 ## Skill Format
 
@@ -342,6 +378,8 @@ title:
 description:
 category:
 version:
+author:
+tags:
 ---
 
 # Skill Name
@@ -374,7 +412,7 @@ Defines analysis, scoring, routing, or execution logic.
 Defines the final response structure.
 
 ## Example Use Case
-Shows how the skill works.
+Shows how the skill works in practice.
 
 ## Multi-Agent Collaboration
 Shows how the skill works with other agents.
@@ -389,24 +427,45 @@ Defines how the agent should behave.
 The reusable instruction that can be copied into an AI agent.
 ```
 
+---
+
+## Example Prompt To Start
+
+```txt
+Use AIZEN as my master router agent.
+
+My project:
+[Project name]
+
+Ecosystem:
+[Base / Solana / Ethereum / Multi-chain]
+
+Goal:
+[What I want to build or execute]
+
+Available tools:
+[OpenClaw / Hermes / n8n / Telegram / APIs / Google Sheets / GitHub / etc.]
+
+Output I want:
+[Content / report / workflow / FAQ / docs / market intelligence / outreach plan]
+
+Route this request to the right AIZEN specialist agent and create the execution workflow.
+```
+
+---
+
 ## Agent Ecosystem
 
 AIZEN skills are designed to be copied, customized, and loaded into multi-agent systems such as:
 
 ```txt
-OpenClaw
-Hermes
-n8n
-CrewAI
-AutoGen
-LangChain
-Flowise
-Telegram Bot API
-Custom GPT
-Claude Projects
-Cursor Agent
-Custom AI Agent Frameworks
+OpenClaw        Hermes          n8n
+CrewAI          AutoGen         LangChain
+Flowise         Telegram Bot    Custom GPT
+Claude Projects Cursor Agent    Custom Frameworks
 ```
+
+---
 
 ## Crypto Ecosystem Coverage
 
@@ -432,15 +491,11 @@ Multi-Chain
 → Narrative tracking, sector rotation, market reports, and ecosystem comparison.
 ```
 
-## Important Notes
+---
 
-AIZEN is not a one-click SaaS product.
+## How To Use Skills
 
-AIZEN is a reusable AI agent skills library.
-
-The skills are designed to help builders, creators, founders, traders, operators, communities, and developers create structured AI agent workflows.
-
-You can use these skills as:
+You can use AIZEN skills as:
 
 - System prompts
 - Agent instructions
@@ -455,6 +510,18 @@ You can use these skills as:
 - Flowise agent instructions
 - Telegram bot workflow prompts
 - Custom multi-agent workflow templates
+
+---
+
+## Important Notes
+
+AIZEN is not a one-click SaaS product.
+
+AIZEN is a reusable AI agent skills library.
+
+The skills are instructions. You bring the tools, APIs, memory, and execution environment.
+
+---
 
 ## Safety & Trust Principles
 
@@ -473,10 +540,57 @@ For crypto, token, and community workflows:
 - Always separate facts, assumptions, and scenarios.
 - Always require human review for sensitive public claims.
 
+---
+
+## How To Contribute
+
+Contributions are welcome.
+
+### Adding a New Skill
+
+```txt
+1. Fork the repository.
+2. Create a new folder inside skills/ using a clear skill name.
+   Example: skills/my-new-skill/
+3. Create a SKILL.md file inside the folder.
+4. Use the SKILL.md format shown above.
+5. Make sure your skill includes:
+   - Frontmatter (name, title, description, category, version, author, tags)
+   - Role
+   - Objective
+   - When To Use This Skill
+   - Required Input
+   - Core Workflow
+   - At least one Output Format
+   - At least one Example Use Case
+   - Safety Rules
+   - Behavior Rules
+   - Prompt section
+6. Open a Pull Request with a short description of what the skill does.
+```
+
+### Improving an Existing Skill
+
+```txt
+1. Fork the repository.
+2. Edit the relevant SKILL.md file.
+3. Describe what you improved and why in the Pull Request.
+```
+
+### Reporting Issues
+
+Open a GitHub Issue if you find:
+- Broken instructions
+- Missing output formats
+- Skill gaps or suggestions
+- Safety concerns
+
+---
+
 ## Recommended Workflow
 
 ```txt
-1. Choose a skill from the skills folder.
+1. Choose a skill from the skills/ folder.
 2. Copy the SKILL.md instruction.
 3. Paste it into your AI agent system.
 4. Add tools, APIs, memory, or automation logic.
@@ -488,31 +602,46 @@ For crypto, token, and community workflows:
 10. Monitor and improve.
 ```
 
-## Example Prompt To Start
+---
 
-```txt
-Use AIZEN as my master router agent.
+## Changelog
 
-My project:
-[Project name]
+### v2.0.0
+- All 7 skills updated to version 2.0.0
+- Added Crypto Market Intelligence Agent v3.0.0
+- Added Base and Solana ecosystem layers to all relevant skills
+- Added multi-agent combination patterns to Router Agent
+- Added safety and trust principles to all skills
+- Added behavior rules to all skills
+- Improved output formats across all skills
+- Added example use cases for AIZEN project context
 
-Ecosystem:
-[Base / Solana / Ethereum / Multi-chain]
+### v1.0.0
+- Initial release
+- 7 core skills published
 
-Goal:
-[What I want to build or execute]
+---
 
-Available tools:
-[OpenClaw / Hermes / n8n / Telegram / APIs / Google Sheets / GitHub / etc.]
+## License
 
-Output I want:
-[Content / report / workflow / FAQ / docs / market intelligence / outreach plan]
+MIT License
 
-Route this request to the right AIZEN specialist agent and create the execution workflow.
-```
+Copyright (c) 2026 Ghost of Sol
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
 
 ## Built By
 
 Built by Ghost of Sol.
 
 AIZEN is for builders who want AI agents that can actually execute workflows, not just chat.
+
+---
+
+*Explore the skills. Copy what you need. Build something that executes.*
